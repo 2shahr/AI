@@ -1,0 +1,252 @@
+A
+linear_regression, without noise, RMSE = 2.636868735367824
+linear_regression, with noise, RMSE = 2.6981666543776055
+ridge regression, lambda = 0.5, without noise, RMSE = 2.6081904424831457
+ridge regression, lambda = 0.5, with noise, RMSE = 2.6484334124301316
+coordinate descent for lasso, lambda = 0.5, without noise, RMSE = 3.215369691355748
+coordinate descent for lasso, lambda = 0.5, with noise, RMSE = 3.2636011118920565
+kernerlized ridge regression gaussian kernel, lambda = 0.5, without noise, RMSE = 1.855813422323895
+kernerlized ridge regression gaussian kernel, lambda = 0.5, with noise, RMSE = 1.9420715032770566
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 0.5, without noise, RMSE = 0.3324951732138334
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 0.5, with noise, RMSE = 0.6649613062971804
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 0.5, without noise, RMSE = 4.079996537502703
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 0.5, with noise, RMSE = 8.032916891470357
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 0.5, without noise, RMSE = 273.9332090670329
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 0.5, with noise, RMSE = 371.9836754027984
+ridge regression, lambda = 1, without noise, RMSE = 2.568522377974881
+ridge regression, lambda = 1, with noise, RMSE = 2.6285148049797042
+coordinate descent for lasso, lambda = 1, without noise, RMSE = 3.2031249083255644
+coordinate descent for lasso, lambda = 1, with noise, RMSE = 3.2624137756067184
+kernerlized ridge regression gaussian kernel, lambda = 1, without noise, RMSE = 1.7952150378023146
+kernerlized ridge regression gaussian kernel, lambda = 1, with noise, RMSE = 1.8812320751325131
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1, without noise, RMSE = 0.3567567449557544
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1, with noise, RMSE = 0.6605857217940881
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1, without noise, RMSE = 3.5761156835643733
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1, with noise, RMSE = 7.937344514980706
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1, without noise, RMSE = 419.25778634335614
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1, with noise, RMSE = 482.24183104350794
+ridge regression, lambda = 10, without noise, RMSE = 2.5765195048750975
+ridge regression, lambda = 10, with noise, RMSE = 2.6152156541048184
+coordinate descent for lasso, lambda = 10, without noise, RMSE = 3.1654547200178422
+coordinate descent for lasso, lambda = 10, with noise, RMSE = 3.181572382725488
+kernerlized ridge regression gaussian kernel, lambda = 10, without noise, RMSE = 2.521413337415024
+kernerlized ridge regression gaussian kernel, lambda = 10, with noise, RMSE = 2.5732836726253505
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 10, without noise, RMSE = 0.4649197317607534
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 10, with noise, RMSE = 0.7141883570323917
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 10, without noise, RMSE = 2.9528310854424054
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 10, with noise, RMSE = 4.131802504419922
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 10, without noise, RMSE = 159.91985122898166
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 10, with noise, RMSE = 208.36722551542883
+ridge regression, lambda = 100, without noise, RMSE = 2.727959445356331
+ridge regression, lambda = 100, with noise, RMSE = 2.7803724793349143
+coordinate descent for lasso, lambda = 100, without noise, RMSE = 3.263922409341268
+coordinate descent for lasso, lambda = 100, with noise, RMSE = 3.3173968240338714
+kernerlized ridge regression gaussian kernel, lambda = 100, without noise, RMSE = 3.1908586797066714
+kernerlized ridge regression gaussian kernel, lambda = 100, with noise, RMSE = 3.20790913419975
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 100, without noise, RMSE = 1.3743045565506815
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 100, with noise, RMSE = 1.4780414403857787
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 100, without noise, RMSE = 3.2331165370948245
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 100, with noise, RMSE = 3.7104802900750236
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 100, without noise, RMSE = 237.5910076824313
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 100, with noise, RMSE = 226.49607611588715
+ridge regression, lambda = 1000, without noise, RMSE = 3.117877618841082
+ridge regression, lambda = 1000, with noise, RMSE = 3.1483948835588302
+coordinate descent for lasso, lambda = 1000, without noise, RMSE = 3.201183943675977
+coordinate descent for lasso, lambda = 1000, with noise, RMSE = 3.2304396702105844
+kernerlized ridge regression gaussian kernel, lambda = 1000, without noise, RMSE = 3.1598610440655452
+kernerlized ridge regression gaussian kernel, lambda = 1000, with noise, RMSE = 3.202289528881048
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1000, without noise, RMSE = 2.5797022250146187
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1000, with noise, RMSE = 2.6508235164235634
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1000, without noise, RMSE = 2.740142737875074
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1000, with noise, RMSE = 2.885501799880181
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1000, without noise, RMSE = 153.4348834546308
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1000, with noise, RMSE = 166.6774469421331
+B
+linear_regression, without noise, RMSE = 0.9084575407579432
+linear_regression, with noise, RMSE = 0.8357862942255869
+ridge regression, lambda = 0.5, without noise, RMSE = 0.9045551247707608
+ridge regression, lambda = 0.5, with noise, RMSE = 0.8720498914483851
+coordinate descent for lasso, lambda = 0.5, without noise, RMSE = 0.8269462240686656
+coordinate descent for lasso, lambda = 0.5, with noise, RMSE = 0.7864583488691916
+kernerlized ridge regression gaussian kernel, lambda = 0.5, without noise, RMSE = 0.8490552047596658
+kernerlized ridge regression gaussian kernel, lambda = 0.5, with noise, RMSE = 0.8065011132062645
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 0.5, without noise, RMSE = 0.11034049616590655
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 0.5, with noise, RMSE = 2.181917084682918
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 0.5, without noise, RMSE = 0.7528055639584157
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 0.5, with noise, RMSE = 1.0628481294607226
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 0.5, without noise, RMSE = 3.1890618816644807
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 0.5, with noise, RMSE = 2.7044373245171744
+ridge regression, lambda = 1, without noise, RMSE = 0.9186835756081656
+ridge regression, lambda = 1, with noise, RMSE = 0.8447739015627818
+coordinate descent for lasso, lambda = 1, without noise, RMSE = 0.8030738666264883
+coordinate descent for lasso, lambda = 1, with noise, RMSE = 0.7426721216505484
+kernerlized ridge regression gaussian kernel, lambda = 1, without noise, RMSE = 0.8751056678553855
+kernerlized ridge regression gaussian kernel, lambda = 1, with noise, RMSE = 0.8388900945677166
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1, without noise, RMSE = 0.12405865520608833
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1, with noise, RMSE = 1.851045243945398
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1, without noise, RMSE = 0.645698649507542
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1, with noise, RMSE = 0.9008004726284494
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1, without noise, RMSE = 1.9287788719541996
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1, with noise, RMSE = 2.3900210194982403
+ridge regression, lambda = 10, without noise, RMSE = 0.8895454094701549
+ridge regression, lambda = 10, with noise, RMSE = 0.8442630783858194
+coordinate descent for lasso, lambda = 10, without noise, RMSE = 0.7955793535499046
+coordinate descent for lasso, lambda = 10, with noise, RMSE = 0.757744527774052
+kernerlized ridge regression gaussian kernel, lambda = 10, without noise, RMSE = 0.8196540369104598
+kernerlized ridge regression gaussian kernel, lambda = 10, with noise, RMSE = 0.7993967727870631
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 10, without noise, RMSE = 0.27491836119856217
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 10, with noise, RMSE = 1.2100199109152405
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 10, without noise, RMSE = 0.6919642803606806
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 10, with noise, RMSE = 1.027339603009992
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 10, without noise, RMSE = 1.8255730956377996
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 10, with noise, RMSE = 1.7107221086692797
+ridge regression, lambda = 100, without noise, RMSE = 0.9036910488125678
+ridge regression, lambda = 100, with noise, RMSE = 0.7901577602734184
+coordinate descent for lasso, lambda = 100, without noise, RMSE = 0.7911233603101019
+coordinate descent for lasso, lambda = 100, with noise, RMSE = 0.7589633792469668
+kernerlized ridge regression gaussian kernel, lambda = 100, without noise, RMSE = 0.8309758609164358
+kernerlized ridge regression gaussian kernel, lambda = 100, with noise, RMSE = 0.8032856801132913
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 100, without noise, RMSE = 0.4603865867569278
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 100, with noise, RMSE = 0.8868824092512427
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 100, without noise, RMSE = 0.7132618494040738
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 100, with noise, RMSE = 0.9459119437597114
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 100, without noise, RMSE = 4.515629978470174
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 100, with noise, RMSE = 2.902907447132878
+ridge regression, lambda = 1000, without noise, RMSE = 0.8203423522210871
+ridge regression, lambda = 1000, with noise, RMSE = 0.8222777978133107
+coordinate descent for lasso, lambda = 1000, without noise, RMSE = 0.8120068011717472
+coordinate descent for lasso, lambda = 1000, with noise, RMSE = 0.800179241083065
+kernerlized ridge regression gaussian kernel, lambda = 1000, without noise, RMSE = 0.8004570725807859
+kernerlized ridge regression gaussian kernel, lambda = 1000, with noise, RMSE = 0.7436053293451842
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1000, without noise, RMSE = 0.6625697925546552
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1000, with noise, RMSE = 0.8121796662057611
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1000, without noise, RMSE = 0.6669121771520155
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1000, with noise, RMSE = 0.9493882702024068
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1000, without noise, RMSE = 2.069549572897241
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1000, with noise, RMSE = 1.6383694815998284
+C
+linear_regression, without noise, RMSE = 1.8053188108259985
+linear_regression, with noise, RMSE = 1.8654470833851184
+ridge regression, lambda = 0.5, without noise, RMSE = 1.7876253018639483
+ridge regression, lambda = 0.5, with noise, RMSE = 1.8794967456171074
+coordinate descent for lasso, lambda = 0.5, without noise, RMSE = 1.8842628312740783
+coordinate descent for lasso, lambda = 0.5, with noise, RMSE = 1.9281790812742914
+kernerlized ridge regression gaussian kernel, lambda = 0.5, without noise, RMSE = 1.098517433475887
+kernerlized ridge regression gaussian kernel, lambda = 0.5, with noise, RMSE = 1.2549441442320188
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 0.5, without noise, RMSE = 0.01134929650788731
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 0.5, with noise, RMSE = 0.5970848624463829
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 0.5, without noise, RMSE = 2.172738757825974
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 0.5, with noise, RMSE = 8.893286521018501
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 0.5, without noise, RMSE = 204.76587599086122
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 0.5, with noise, RMSE = 539.588365669199
+ridge regression, lambda = 1, without noise, RMSE = 1.833719044599857
+ridge regression, lambda = 1, with noise, RMSE = 1.9063580542011913
+coordinate descent for lasso, lambda = 1, without noise, RMSE = 1.945287661469404
+coordinate descent for lasso, lambda = 1, with noise, RMSE = 2.02614386037106
+kernerlized ridge regression gaussian kernel, lambda = 1, without noise, RMSE = 1.228936943503661
+kernerlized ridge regression gaussian kernel, lambda = 1, with noise, RMSE = 1.3541511455232362
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1, without noise, RMSE = 0.02355661692794987
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1, with noise, RMSE = 0.5703625928719305
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1, without noise, RMSE = 1.5926258357377594
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1, with noise, RMSE = 5.682790911972677
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1, without noise, RMSE = 188.67786444530273
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1, with noise, RMSE = 282.0660428115015
+ridge regression, lambda = 10, without noise, RMSE = 1.8557886664186043
+ridge regression, lambda = 10, with noise, RMSE = 1.9348008711381635
+coordinate descent for lasso, lambda = 10, without noise, RMSE = 1.866343423517956
+coordinate descent for lasso, lambda = 10, with noise, RMSE = 1.9393808305780282
+kernerlized ridge regression gaussian kernel, lambda = 10, without noise, RMSE = 1.6609069456271954
+kernerlized ridge regression gaussian kernel, lambda = 10, with noise, RMSE = 1.7268573351370327
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 10, without noise, RMSE = 0.1905975501484021
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 10, with noise, RMSE = 0.5774468071578608
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 10, without noise, RMSE = 1.8408006150905754
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 10, with noise, RMSE = 3.794059602885468
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 10, without noise, RMSE = 124.7457558303455
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 10, with noise, RMSE = 243.53522723704862
+ridge regression, lambda = 100, without noise, RMSE = 1.8870401561638062
+ridge regression, lambda = 100, with noise, RMSE = 1.9641395203343086
+coordinate descent for lasso, lambda = 100, without noise, RMSE = 1.9079341452089655
+coordinate descent for lasso, lambda = 100, with noise, RMSE = 1.951796157472414
+kernerlized ridge regression gaussian kernel, lambda = 100, without noise, RMSE = 1.8262664755284173
+kernerlized ridge regression gaussian kernel, lambda = 100, with noise, RMSE = 1.9040642436788224
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 100, without noise, RMSE = 0.8180627177174135
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 100, with noise, RMSE = 0.9792451582271368
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 100, without noise, RMSE = 2.132997851145947
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 100, with noise, RMSE = 2.853277061311646
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 100, without noise, RMSE = 54.72403307675257
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 100, with noise, RMSE = 80.26292017058292
+ridge regression, lambda = 1000, without noise, RMSE = 1.9191414775471187
+ridge regression, lambda = 1000, with noise, RMSE = 1.9722443003912713
+coordinate descent for lasso, lambda = 1000, without noise, RMSE = 1.9535832410693006
+coordinate descent for lasso, lambda = 1000, with noise, RMSE = 2.0175818628113396
+kernerlized ridge regression gaussian kernel, lambda = 1000, without noise, RMSE = 1.9142794540056436
+kernerlized ridge regression gaussian kernel, lambda = 1000, with noise, RMSE = 1.9579680561867407
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1000, without noise, RMSE = 1.6099496679582286
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1000, with noise, RMSE = 1.6687649699702307
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1000, without noise, RMSE = 1.2363401330673687
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1000, with noise, RMSE = 1.3988450884658397
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1000, without noise, RMSE = 39.43721398709601
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1000, with noise, RMSE = 67.28416380375715
+D
+linear_regression, without noise, RMSE = 1.3755156137693376
+linear_regression, with noise, RMSE = 1.4723746663926394
+ridge regression, lambda = 0.5, without noise, RMSE = 1.4342961663341338
+ridge regression, lambda = 0.5, with noise, RMSE = 1.5532078902222548
+coordinate descent for lasso, lambda = 0.5, without noise, RMSE = 1.8237770590371825
+coordinate descent for lasso, lambda = 0.5, with noise, RMSE = 1.9022939786731028
+kernerlized ridge regression gaussian kernel, lambda = 0.5, without noise, RMSE = 1.8836282094773893
+kernerlized ridge regression gaussian kernel, lambda = 0.5, with noise, RMSE = 1.920559380791154
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 0.5, without noise, RMSE = 3.122123603343752
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 0.5, with noise, RMSE = 3.404368471180949
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 0.5, without noise, RMSE = 1.8930818200856612
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 0.5, with noise, RMSE = 2.0463784560557983
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 0.5, without noise, RMSE = 11.533425934234213
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 0.5, with noise, RMSE = 12.063479171384172
+ridge regression, lambda = 1, without noise, RMSE = 1.5037617899041649
+ridge regression, lambda = 1, with noise, RMSE = 1.5875204527528715
+coordinate descent for lasso, lambda = 1, without noise, RMSE = 2.048163758721155
+coordinate descent for lasso, lambda = 1, with noise, RMSE = 2.1038839951715262
+kernerlized ridge regression gaussian kernel, lambda = 1, without noise, RMSE = 1.9249305538961659
+kernerlized ridge regression gaussian kernel, lambda = 1, with noise, RMSE = 1.9849859190775183
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1, without noise, RMSE = 2.7375430110597616
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1, with noise, RMSE = 3.058492949380024
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1, without noise, RMSE = 2.0247225742687727
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1, with noise, RMSE = 2.2389362862656297
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1, without noise, RMSE = 8.68493096447665
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1, with noise, RMSE = 10.187480928574296
+ridge regression, lambda = 10, without noise, RMSE = 1.3760207351884182
+ridge regression, lambda = 10, with noise, RMSE = 1.477875049608852
+coordinate descent for lasso, lambda = 10, without noise, RMSE = 1.9296450282895137
+coordinate descent for lasso, lambda = 10, with noise, RMSE = 2.0168789158484004
+kernerlized ridge regression gaussian kernel, lambda = 10, without noise, RMSE = 2.0092947413077242
+kernerlized ridge regression gaussian kernel, lambda = 10, with noise, RMSE = 2.097076825969998
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 10, without noise, RMSE = 1.8208536655651613
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 10, with noise, RMSE = 1.975239964836221
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 10, without noise, RMSE = 1.821073936218782
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 10, with noise, RMSE = 1.8974995407523128
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 10, without noise, RMSE = 7.535281740098086
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 10, with noise, RMSE = 9.058238373752054
+ridge regression, lambda = 100, without noise, RMSE = 1.6077920145227018
+ridge regression, lambda = 100, with noise, RMSE = 1.7138767249469453
+coordinate descent for lasso, lambda = 100, without noise, RMSE = 1.9266240771123848
+coordinate descent for lasso, lambda = 100, with noise, RMSE = 1.9994215948253617
+kernerlized ridge regression gaussian kernel, lambda = 100, without noise, RMSE = 1.8191943233015744
+kernerlized ridge regression gaussian kernel, lambda = 100, with noise, RMSE = 1.9115882495841916
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 100, without noise, RMSE = 1.6767120641728173
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 100, with noise, RMSE = 1.784617246226166
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 100, without noise, RMSE = 1.7569592518952328
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 100, with noise, RMSE = 1.9319302529709637
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 100, without noise, RMSE = 9.044384211616077
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 100, with noise, RMSE = 8.415423358754506
+ridge regression, lambda = 1000, without noise, RMSE = 1.6701598112822706
+ridge regression, lambda = 1000, with noise, RMSE = 1.7576615290141913
+coordinate descent for lasso, lambda = 1000, without noise, RMSE = 1.9760073520469834
+coordinate descent for lasso, lambda = 1000, with noise, RMSE = 2.0531099638910075
+kernerlized ridge regression gaussian kernel, lambda = 1000, without noise, RMSE = 1.8193356856073384
+kernerlized ridge regression gaussian kernel, lambda = 1000, with noise, RMSE = 1.9003015619048378
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1000, without noise, RMSE = 1.7899890011456194
+kernerlized ridge regression polynomial kernel, d = 2, lambda = 1000, with noise, RMSE = 1.8729736723109482
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1000, without noise, RMSE = 1.6435705111132788
+kernerlized ridge regression polynomial kernel, d = 5, lambda = 1000, with noise, RMSE = 1.7838459513048606
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1000, without noise, RMSE = 17.79182760180065
+kernerlized ridge regression polynomial kernel, d = 10, lambda = 1000, with noise, RMSE = 20.41574368257681
