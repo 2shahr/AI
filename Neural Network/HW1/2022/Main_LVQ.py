@@ -6,6 +6,8 @@ import cv2
 from skimage.util import random_noise
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_recall_fscore_support
+import SimpSOM as sps
+
 
 ########### Functions ###########
 
@@ -17,7 +19,13 @@ def getFileList(directory=os.path.dirname(os.path.realpath(__file__))):
 
 def TrainLVQ(X, y, a, b, max_ep):
     c, train_idx = np.unique(y, True)
-    W = X[train_idx].astype(np.float64)
+    model = sps.somNet(np.unique(y, True)[0].shape[0], 1, X_train, PBC=True)
+    model.train(0.01, 200)    
+    W = []
+    for it in range(0, np.unique(y, True)[0].shape[0]):
+        W.append(model.nodeList[it].weights)
+    W = np.array(W)   
+#    W = X[train_idx].astype(np.float64)
     train = np.array([e for i, e in enumerate(
         zip(X, y)) if i not in train_idx])
     X = train[:, 0]
