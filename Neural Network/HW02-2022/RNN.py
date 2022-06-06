@@ -12,12 +12,10 @@ from keras import layers
 #from keras.utils import to_categorical
 from tensorflow.keras.utils import to_categorical
 
-
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from collections import Counter
 wordDict = Counter()
-
 
 
 def MakePreprocessing(Input):
@@ -116,7 +114,5 @@ y_tst = to_categorical(y_tst)
 Net = RNN(X_trn, y_trn)
 
 Outs = Prediction(Net, X_trn, y_trn, X_tst)
-
-
 
 print("Accuracy: ", accuracy_score(y_tst, Outs))
