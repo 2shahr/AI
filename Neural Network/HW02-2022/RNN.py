@@ -42,7 +42,7 @@ def RNN(X_trn, y_trn):
 # building a linear stack of layers with the sequential model
     model = Sequential() 
     
-# Embding layer
+# Embedding layer
     vocab_size = 100    
     model.add(layers.Embedding(vocab_size, 100, input_length=X_trn.shape[1]))
 
@@ -53,7 +53,7 @@ def RNN(X_trn, y_trn):
     model.add(layers.Flatten())  # this converts our 3D feature maps to 1D feature vectors
  
     
-# Fully conected layer
+# Fully connected layer
     model.add(layers.Dense(200, activation='relu'))
     model.add(layers.Dense(50, activation='sigmoid'))
     model.add(layers.Dense(2, activation='softmax'))
@@ -107,7 +107,7 @@ Padded = Padded.astype(int)
 
 
 
-# Spliting dataset to train, validation and test
+# Splitting dataset to train, validation and test
 X_trn, X_tst, y_trn, y_tst = train_test_split(Padded, Rate, test_size=0.2)
 y_trn = to_categorical(y_trn)
 y_tst = to_categorical(y_tst)
@@ -120,4 +120,3 @@ Outs = Prediction(Net, X_trn, y_trn, X_tst)
 
 
 print("Accuracy: ", accuracy_score(y_tst, Outs))
-
