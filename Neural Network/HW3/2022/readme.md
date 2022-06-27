@@ -7,6 +7,7 @@ Image segmentation is important because it can enhance the analysis of images wi
 It extracts the objects of interest, for further processing such as description or recognition.
 Image segmentation works by using encoders and decoders. Encoders take in input, which is a raw image, it then extracts features, and finally, decoders generate
 an output which is an image with segments.
+
 ![image](https://user-images.githubusercontent.com/11517432/175871527-95b18995-5695-4775-aae0-51e3c34d1e29.png)
 
 The most common architectures in image segmentation are U-Net, FastFCN, Deeplab, Mask R-CNN, etc.
