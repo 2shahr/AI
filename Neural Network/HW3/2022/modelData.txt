@@ -1,0 +1,122 @@
+Model: "model_11"
+__________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_12 (InputLayer)           [(None, 64, 64, 3)]  0                                            
+__________________________________
+conv2d_209 (Conv2D)             (None, 64, 64, 32)   864         input_12[0][0]                   
+__________________________________
+batch_normalization_198 (BatchN (None, 64, 64, 32)   128         conv2d_209[0][0]                 
+__________________________________
+spatial_dropout2d_55 (SpatialDr (None, 64, 64, 32)   0           batch_normalization_198[0][0]    
+__________________________________
+conv2d_210 (Conv2D)             (None, 64, 64, 32)   9216        spatial_dropout2d_55[0][0]       
+__________________________________
+batch_normalization_199 (BatchN (None, 64, 64, 32)   128         conv2d_210[0][0]                 
+__________________________________
+max_pooling2d_44 (MaxPooling2D) (None, 32, 32, 32)   0           batch_normalization_199[0][0]    
+__________________________________
+conv2d_211 (Conv2D)             (None, 32, 32, 64)   18432       max_pooling2d_44[0][0]           
+__________________________________
+batch_normalization_200 (BatchN (None, 32, 32, 64)   256         conv2d_211[0][0]                 
+__________________________________
+spatial_dropout2d_56 (SpatialDr (None, 32, 32, 64)   0           batch_normalization_200[0][0]    
+__________________________________
+conv2d_212 (Conv2D)             (None, 32, 32, 64)   36864       spatial_dropout2d_56[0][0]       
+__________________________________
+batch_normalization_201 (BatchN (None, 32, 32, 64)   256         conv2d_212[0][0]                 
+__________________________________
+max_pooling2d_45 (MaxPooling2D) (None, 16, 16, 64)   0           batch_normalization_201[0][0]    
+__________________________________
+conv2d_213 (Conv2D)             (None, 16, 16, 128)  73728       max_pooling2d_45[0][0]           
+__________________________________
+batch_normalization_202 (BatchN (None, 16, 16, 128)  512         conv2d_213[0][0]                 
+__________________________________
+spatial_dropout2d_57 (SpatialDr (None, 16, 16, 128)  0           batch_normalization_202[0][0]    
+__________________________________
+conv2d_214 (Conv2D)             (None, 16, 16, 128)  147456      spatial_dropout2d_57[0][0]       
+__________________________________
+batch_normalization_203 (BatchN (None, 16, 16, 128)  512         conv2d_214[0][0]                 
+__________________________________
+max_pooling2d_46 (MaxPooling2D) (None, 8, 8, 128)    0           batch_normalization_203[0][0]    
+__________________________________
+conv2d_215 (Conv2D)             (None, 8, 8, 256)    294912      max_pooling2d_46[0][0]           
+__________________________________
+batch_normalization_204 (BatchN (None, 8, 8, 256)    1024        conv2d_215[0][0]                 
+__________________________________
+spatial_dropout2d_58 (SpatialDr (None, 8, 8, 256)    0           batch_normalization_204[0][0]    
+__________________________________
+conv2d_216 (Conv2D)             (None, 8, 8, 256)    589824      spatial_dropout2d_58[0][0]       
+__________________________________
+batch_normalization_205 (BatchN (None, 8, 8, 256)    1024        conv2d_216[0][0]                 
+__________________________________
+max_pooling2d_47 (MaxPooling2D) (None, 4, 4, 256)    0           batch_normalization_205[0][0]    
+__________________________________
+conv2d_217 (Conv2D)             (None, 4, 4, 512)    1179648     max_pooling2d_47[0][0]           
+__________________________________
+batch_normalization_206 (BatchN (None, 4, 4, 512)    2048        conv2d_217[0][0]                 
+__________________________________
+spatial_dropout2d_59 (SpatialDr (None, 4, 4, 512)    0           batch_normalization_206[0][0]    
+__________________________________
+conv2d_218 (Conv2D)             (None, 4, 4, 512)    2359296     spatial_dropout2d_59[0][0]       
+__________________________________
+batch_normalization_207 (BatchN (None, 4, 4, 512)    2048        conv2d_218[0][0]                 
+__________________________________
+conv2d_transpose_44 (Conv2DTran (None, 8, 8, 256)    524544      batch_normalization_207[0][0]    
+__________________________________
+concatenate_44 (Concatenate)    (None, 8, 8, 512)    0           conv2d_transpose_44[0][0]        
+                                                                 batch_normalization_205[0][0]    
+__________________________________
+conv2d_219 (Conv2D)             (None, 8, 8, 256)    1179648     concatenate_44[0][0]             
+__________________________________
+batch_normalization_208 (BatchN (None, 8, 8, 256)    1024        conv2d_219[0][0]                 
+__________________________________
+conv2d_220 (Conv2D)             (None, 8, 8, 256)    589824      batch_normalization_208[0][0]    
+__________________________________
+batch_normalization_209 (BatchN (None, 8, 8, 256)    1024        conv2d_220[0][0]                 
+__________________________________
+conv2d_transpose_45 (Conv2DTran (None, 16, 16, 128)  131200      batch_normalization_209[0][0]    
+__________________________________
+concatenate_45 (Concatenate)    (None, 16, 16, 256)  0           conv2d_transpose_45[0][0]        
+                                                                 batch_normalization_203[0][0]    
+__________________________________
+conv2d_221 (Conv2D)             (None, 16, 16, 128)  294912      concatenate_45[0][0]             
+__________________________________
+batch_normalization_210 (BatchN (None, 16, 16, 128)  512         conv2d_221[0][0]                 
+__________________________________
+conv2d_222 (Conv2D)             (None, 16, 16, 128)  147456      batch_normalization_210[0][0]    
+__________________________________
+batch_normalization_211 (BatchN (None, 16, 16, 128)  512         conv2d_222[0][0]                 
+__________________________________
+conv2d_transpose_46 (Conv2DTran (None, 32, 32, 64)   32832       batch_normalization_211[0][0]    
+__________________________________
+concatenate_46 (Concatenate)    (None, 32, 32, 128)  0           conv2d_transpose_46[0][0]        
+                                                                 batch_normalization_201[0][0]    
+__________________________________
+conv2d_223 (Conv2D)             (None, 32, 32, 64)   73728       concatenate_46[0][0]             
+__________________________________
+batch_normalization_212 (BatchN (None, 32, 32, 64)   256         conv2d_223[0][0]                 
+__________________________________
+conv2d_224 (Conv2D)             (None, 32, 32, 64)   36864       batch_normalization_212[0][0]    
+__________________________________
+batch_normalization_213 (BatchN (None, 32, 32, 64)   256         conv2d_224[0][0]                 
+__________________________________
+conv2d_transpose_47 (Conv2DTran (None, 64, 64, 32)   8224        batch_normalization_213[0][0]    
+__________________________________
+concatenate_47 (Concatenate)    (None, 64, 64, 64)   0           conv2d_transpose_47[0][0]        
+                                                                 batch_normalization_199[0][0]    
+__________________________________
+conv2d_225 (Conv2D)             (None, 64, 64, 32)   18432       concatenate_47[0][0]             
+__________________________________
+batch_normalization_214 (BatchN (None, 64, 64, 32)   128         conv2d_225[0][0]                 
+__________________________________
+conv2d_226 (Conv2D)             (None, 64, 64, 32)   9216        batch_normalization_214[0][0]    
+__________________________________
+batch_normalization_215 (BatchN (None, 64, 64, 32)   128         conv2d_226[0][0]                 
+__________________________________
+conv2d_227 (Conv2D)             (None, 64, 64, 10)   330         batch_normalization_215[0][0]    
+==================================================================================================
+Total params: 7,769,226
+Trainable params: 7,763,338
+Non-trainable params: 5,888
+____
